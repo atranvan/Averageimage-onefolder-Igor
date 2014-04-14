@@ -1,0 +1,15 @@
+aveimdir(prefix)
+
+Procedure for Igor Pro software. calculate average image from all images named starting with same prefix in a given data folder.
+By Alex Tran-Van-Minh (alexandra.tran.van.minh@gmail.com)
+
+
+INSTALLATION: 
+
+copy avesamedir.ipf file in the Igor Procedure subfolder in your Wavemetrics folder. Restart Igor Pro
+
+////
+
+As argument the user enters the prefix of the images to average 
+By example typing in command window aveimdir("image") will create and display an average of all 2d waves which name starts with "image"
+in the current data folder
